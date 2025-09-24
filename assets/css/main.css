@@ -559,3 +559,52 @@ body{
     color: #FB2E86;
 }
 /* end leatest-blg section */
+
+/* start footer */
+footer{
+    background-color: #EEEFF8;
+    padding: 50px 0;
+    margin-top: 80px;
+}
+.footer .row{
+    gap: 30px;
+}
+.footer a, .address-info{
+    color: #8A8FB9;
+    font-size: 14px;
+}
+.footer .left-side{
+    gap: 35px;
+    align-items: flex-start;
+    width: calc((100% - 30px) / 2);
+} 
+.footer .left-side form{
+    display: flex;
+}
+.footer .right-side{
+    width: calc((100% - 30px) / 2);
+}
+.footer .right-side .row{
+    gap: 35px;
+    align-items: flex-start;
+}
+.footer-item{
+    gap: 45px;
+    width: calc((100% - 70px) / 3);
+}
+
+@media screen and (max-width:992px){
+    .footer .left-side, .footer .right-side{
+        width: 100%;
+    }
+}
+@media screen and (max-width:576px){
+    .footer{
+        text-align: center;
+    }
+    .footer-item{
+        width: 100%;
+    }
+}
+
+/* end footer */
