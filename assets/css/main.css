@@ -336,3 +336,48 @@ body{
     text-align: center;
 } */
 /*end shopex offer section */
+
+/* start trending products section */
+.trending-section{
+    padding: 50px 0;
+}
+.trending-section h2{
+    margin-bottom: 90px;
+    color: #1A0B5B;
+}
+.trending-section .row{
+    gap: 25px;
+}
+.trending-section .t-product{
+    flex: 1 0 250px;
+    box-shadow: 0px 5px 10px 0px #0000000c;
+    padding: 12px 12px 35px 12px;
+}
+.trending-section .t-product .image{
+    background-color: #F5F6F8;
+    padding: 35px 35px;
+    margin-bottom: 30px;
+}
+.trending-section .t-product .image img{
+    width: 150px;
+    height: 150px;
+     object-fit: contain;
+}
+.trending-section .t-product .desc{
+    text-align: center;
+}
+.trending-section .t-product .desc h3{
+    color: #1A0B5B;
+    margin-bottom: 10px;
+}
+.trending-section .t-product .desc .spans span:first-child{
+    color: #1A0B5B;
+    margin-right: 10px;
+}
+.trending-section .t-product .desc .spans span:last-child{
+    font-size: 13px;
+    text-decoration: line-through;
+    color: #15187556;
+}
+
+/* end trending products section */
