@@ -184,3 +184,104 @@ body{
     background-color: #FFEAC1;
 }
 /*end featured section*/
+
+/*start leatest products section */
+.leatest-product{
+    padding: 50px 0;
+}
+.leatest-product h2{
+    color: #1A0B5B;
+}
+.leatest-product ul{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.leatest-product ul li a{
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #1A0B5B;
+}
+.leatest-product ul li a.active{
+    color: #FB2E86;
+    text-decoration: underline;
+}
+.leatest-product .row{
+    justify-content: flex-start;
+    gap: 30px;
+}
+.leatest-product .l-product{
+    flex: 1 0 300px;
+}
+.l-product .image{
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.l-product .image img{
+        width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+.leatest-product .product-desc{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.leatest-product .product-desc .part-one{
+    color: #1A0B5B;
+    font-weight: 600;
+}
+.leatest-product .product-desc .part-two{
+    margin-right: 15px;
+}
+.leatest-product .product-desc .part-two span:first-child{
+    color: #1A0B5B;
+    font-size: 17px;
+    font-weight: 600;
+}
+.leatest-product .product-desc .part-two span:last-child{
+    color: #FB2E86;
+    margin-left: 10px;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+.l-product2{
+    position: relative;
+}
+.l-product{
+    position: relative;
+}
+.badge-sale2{
+    position: absolute;
+    left: -10px;
+    top: -4px;
+}
+.badge-sale2 img{
+    width: 100px;
+}
+.icons{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 70px;
+    gap: 20px;
+    left: 20px;
+    display: none;
+    transition: all 0.5s ease;
+}
+.icons i{
+    color: #1A0B5B;
+}
+.leatest-product .l-product:hover .image{
+    background-color: #fff;
+    cursor: pointer;
+}
+.leatest-product .l-product:hover .icons{
+    display: flex;
+}
+/*end leatest products section */
