@@ -608,3 +608,22 @@ footer{
 }
 
 /* end footer */
+
+/* start logos section */
+.logos{
+    background-color: #E7E4F8;
+    padding: 16px 0;
+}
+.logos .row{
+    justify-content: space-around;
+}
+.logos p{
+    color: #9DA0AE;
+}
+.logos-icons{
+    color: #1A0B5B;
+}
+.logos-icons .second{
+    margin: 0 8px;
+}
+/* end logos section */
