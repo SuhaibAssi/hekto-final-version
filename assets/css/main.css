@@ -386,6 +386,7 @@ body{
 /* start top-categories section */
 .top-categories{
     padding: 50px 0;
+    margin-bottom: 60px;
 }
 .top-categories h2{
         margin-bottom: 50px;
@@ -445,3 +446,24 @@ body{
     margin-bottom: 8px;
 }
 /* end top-categories section */
+
+
+/* start newsletter */
+.newsletter{
+    background-image: url(../images/newsletter-section/Rectangle\ 102.webp);
+    padding: 175px 0;
+    text-align: center;
+    background-attachment: fixed;
+}
+.newsletter h2{
+    margin-bottom: 50px;
+    color: #151875;
+    font-size: 35px
+}
+.shop-btn{
+    transition: background-color 0.8s ease;
+}
+.shop-btn:hover{
+    background-color: #0d0e43;
+}
+/* end newsletter */
